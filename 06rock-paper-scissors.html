@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+</head>
+<body>  
+    <p>Rock Paper Scissors</p>
+    <button onclick="
+    const randomNumber=Math.random();
+
+    if (randomNumber < 0.33) {
+        console.log('Rock');
+    } else if (randomNumber < 0.66) {
+        console.log('Paper');
+    } else {
+        console.log('Scissors');
+    }
+    ">Rock</button>
+
+    <button onclick="
+    const randomNumber2=Math.random();
+    if (randomNumber2 < 0.33) {
+        const computerMove ='Rock';
+    } else if (randomNumber2 < 0.66) {
+        const computerMove ='Paper';
+    } else {
+        const computerMove ='Scissors';
+    }
+    ">Paper</button>
+    <button onclick="
+    const randomNumber3=Math.random();
+    if (randomNumber3 < 0.33) {
+        console.log('Rock');
+    } else if (randomNumber3 < 0.66) {
+        console.log('Paper');
+    } else {
+        console.log('Scissors');
+    }
+    ">Scissors</button>
+
+    <script>
+        
+
+    </script>
+</body>
+</html>

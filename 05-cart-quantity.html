@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <p>Value: <span id="counter">0</span></p>
+  <button onclick="increase()">Increase</button>
+
+  <script>
+    let value = 0;
+
+    function increase() {
+      value++;
+      document.getElementById('counter').innerText = value;
+    }
+  </script>
+</body>
+</html>
